@@ -1,0 +1,61 @@
+body {
+  background-color: #151515;
+  font-family: Helvetica, Arial, 'Open Sans', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#sw-header {
+  color: yellow;
+}
+
+#navbar {
+  height: 40px;
+  width: 100%;
+  background-color: #303030;
+}
+
+/*#container {
+  min-height: 100%;
+  position: relative;
+}*/
+
+#background {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -3;
+  background-color: #151515;
+}
+
+#content {
+  height: 100%;
+  padding-bottom: 100px;
+  background-image: url("../assets/starfield2.jpg");
+  background-size: 100% 100%;
+}
+
+.starfield {
+  position: absolute;
+  width: 200px;
+  height: 100%;
+  top: 0;
+  background-repeat: repeat-y;
+}
+
+#starfield-left {
+  z-index: -3;
+
+  position: absolute;
+  width: 200px;
+  height: 100%;
+  top: 0;
+  background-repeat: repeat-y;
+
+  left: 0;
+  background-position: left center;
+  background-size: 100% auto;
+  background-image: url(//a.dilcdn.com/sw/background/bg_starsL-d39a0dc14ce4.jpg);
+}
